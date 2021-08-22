@@ -36,3 +36,24 @@ console.log(pa.textContent)
 // innerHTML
 let parael=document.getElementById("para1")
 console.log(parael.innerHTML)
+
+
+// small counter application
+function increment(){
+    let count=document.getElementById("counter")
+    let currentCount=count.innerText;
+    let updatedCount=parseInt(currentCount) + 1
+    count.innerHTML=updatedCount;
+}
+
+function decrement(){
+    let count1=document.getElementById("counter")
+    let currentCount=count1.innerText;
+    let updatedCount=parseInt(currentCount) - 1
+    count1.innerHTML=updatedCount;
+}
+
+function reset(){
+    let counte=document.getElementById("counter")
+    counte.innerHTML = 0;
+}
