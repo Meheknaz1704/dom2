@@ -14,13 +14,13 @@ function onButtonClick() {
 }
 
 function onaddClick(){
-    let para1=document.getElementById("para1")
+    let para1=document.getElementById("grey")
     para1.classList.add("greyText");
     
 }
 
 function onremoveClick(){
-    let para1=document.getElementById("para1")
+    let para1=document.getElementById("grey")
     para1.classList.remove("greyText");
     
 }
